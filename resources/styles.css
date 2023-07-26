@@ -1,0 +1,106 @@
+.background {
+  viewport-fill: black;
+}
+
+#background-image-0 {
+  x: 0;
+  y: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+}
+
+#background-holder {
+  x: 50%-100;
+  y: 10;
+  width: 200;
+  height: 200;
+}
+
+.background-image {
+  x: 0;
+  y: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+
+#tapzone {
+  x: 0;
+  y: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+
+#battery {
+  font-size: 18;
+  font-family: System-Regular;
+  text-length: 32;
+  text-anchor: start;
+  fill: white;
+  x: 45;
+  y: 25;
+}
+
+#battery_img {
+  width: 30;
+  height: 30;
+  x: 10;
+  y: 4;
+  opacity: 1;
+}
+
+.stats {
+  font-size: 18;
+  font-family: System-Bold;
+  text-length: 32;
+  text-anchor: end;
+  x: 100%-35;
+  y: 25;
+}
+
+.stats_img {
+  width: 18;
+  height: 18;
+  x: 100%-25;
+  y: 10;
+  opacity: 0;
+}
+
+#date-time-background {
+  x: 50%;
+  y: 50%;
+  width: 100%;
+  height: 100%;
+}
+
+#date {
+  font-size: 22;
+  font-family: System-Bold;
+  text-length: 32;
+  text-anchor: middle;
+  x: 50%;
+  y: 100%-75;
+  fill: white;
+}
+
+#time {
+  font-size: 80;
+  font-family: System-Regular;
+  text-length: 32;
+  text-anchor: middle;
+  x: 50%;
+  y: 100%-10;
+  fill: white;
+}
+
+#timeSecs {
+  font-family: System-Light;
+  text-anchor: middle;
+  text-length: 32;
+  font-size: 30;
+  fill: white;
+  x: 75%;
+  y: 100%-10;
+}

@@ -1,0 +1,34 @@
+<svg class="background" id="root">
+
+  <image id="background-image-0" href="backgrounds/takodachi/0.png" />
+  <svg id="background-holder">
+    <image id="background-image-1" class="background-image" href="backgrounds/takodachi/1.png" />
+    <image id="background-image-2" class="background-image" href="backgrounds/takodachi/2.png" />
+    <image id="background-image-3" class="background-image" href="backgrounds/takodachi/3.png" />
+    <image id="background-image-4" class="background-image" href="backgrounds/takodachi/4.png" />
+    <image id="background-image-5" class="background-image" href="backgrounds/takodachi/5.png" />
+  </svg>
+
+  <rect id="tapzone" pointer-events="visible">
+
+    <image id="battery_img" class="color-changeable" href="icons/battery_solid_24px.png" />
+    <text id="battery" class="color-changeable" />
+
+    <text id="date" class="color-changeable" />
+    <text id="time" class="color-changeable" />
+    <text id="timeSecs" class="color-changeable" />
+
+    <image id="heartrate_img" class="stats_img color-changeable" href="icons/heart_rate.png" />
+    <text id="heartrate" class="stats color-changeable" />
+
+    <image id="steps_img" class="stats_img color-changeable" href="icons/steps.png" />
+    <text id="steps" class="stats color-changeable" />
+
+    <image id="cals_img" class="stats_img color-changeable" href="icons/calories.png" />
+    <text id="cals" class="stats color-changeable" />
+
+    <image id="distance_img" class="stats_img color-changeable" href="icons/distance.png" />
+    <text id="distance" class="stats color-changeable" />
+
+  </rect>
+</svg>

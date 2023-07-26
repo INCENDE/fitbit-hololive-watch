@@ -1,0 +1,30 @@
+{
+  "name": "hololive-watch",
+  "version": "0.1.0",
+  "private": true,
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@fitbit/sdk": "^4.0.0",
+    "@fitbit/sdk-cli": "^1.7.3"
+  },
+  "fitbit": {
+    "appType": "clockface",
+    "appDisplayName": "Hololive Watch",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#ffffff",
+    "requestedPermissions": [
+      "access_heart_rate",
+      "access_activity"
+    ],
+    "buildTargets": [
+      "gemini"
+    ],
+    "i18n": {},
+    "defaultLanguage": "en-US",
+    "appUUID": "9b5212da-ea65-41d7-a4be-c6b243f2f89b"
+  },
+  "scripts": {
+    "build": "fitbit-build",
+    "debug": "fitbit"
+  }
+}
